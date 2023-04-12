@@ -1,3 +1,5 @@
+import '../../App.css';
+
 const Simpson = ({item}) => {
     return (
         <div>
@@ -6,8 +8,8 @@ const Simpson = ({item}) => {
                 <div>surname - {item.surname}</div>
                 <div>age - {item.age}</div>
                 <div>info - {item.info}</div>
-                <div>photo -  {item.photo}</div>
-            </div>))
+                <div> <img alt="img" className={"pht"} src={item.photo} /> </div>
+            </div>
         </div>
     )
 
