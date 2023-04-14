@@ -1,15 +1,18 @@
 import '../../App.css';
 
-const Simpson = ({item}) => {
+const Simpson = ({simpson}) => {
+
     return (
         <div>
             <div>
-                <div>name - {item.name}</div>
-                <div>surname - {item.surname}</div>
-                <div>age - {item.age}</div>
-                <div>info - {item.info}</div>
+                <div>name - {simpson.name}</div>
+                <div>surname - {simpson.surname}</div>
+                <div>age - {simpson.age}</div>
+                <div>info - {simpson.info}</div>
 
-                <div> <img alt="img" className={"pht"} src={item.photo} /> </div>
+                <div>
+                    <img alt={simpson.name} className={"pht"} src={simpson.photo} />
+                </div>
             </div>
         </div>
     )
