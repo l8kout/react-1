@@ -1,9 +1,12 @@
-import {Cars} from "./components/Cars/Cars";
+import {Cars} from "./lesson/components/Cars/Cars";
+import {Users} from "./hw/Users"
 
 const App = () => {
     return (
         <div>
-            <Cars/>
+            {/*<Cars/>*/}
+
+            <Users/>
         </div>
     );
 };
